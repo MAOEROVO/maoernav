@@ -1,0 +1,13 @@
+@charset "utf-8";
+*{ padding:0; margin:0;}
+li{ list-style:none;}
+a{ text-decoration:none;}
+#maoernav{ color:#fff; background:#333; height:88px; width:88px; line-height:88px; text-align:center; font-size:24px; position:relative; cursor:pointer;}
+#maoernav li{ height:0px; width:0px; position:absolute; left:0px; top:50%; transition:all 0.2s;}
+#maoernav li a{ display:block; height:88px; width:300px; text-align:center; line-height:88px; position:absolute; left:88px; top:-44px;}
+.rot_20{transform:rotate(20deg);opacity:1;}
+.rot_40{transform:rotate(40deg);opacity:1;}
+.rot_60{transform:rotate(60deg);opacity:1;}
+.rot_80{transform:rotate(80deg);opacity:1;}
+.opa_0{opacity:0;}
+.opa_1{opacity:1;}
